@@ -59,7 +59,7 @@ Brain  →  EEG  →  Decoder  →  Robot / VR
 ## 📫 Get in touch
 
 [![Website](https://img.shields.io/badge/Website-PaoloFori.github.io-1d4ed8?style=flat-square&logo=googlechrome&logoColor=white)](https://PaoloFori.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-paoloforin-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paoloforin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-paolo--forin-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paolo-forin/)
 [![Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOURID)
 [![Email](https://img.shields.io/badge/Email-forin.paolo98@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:forin.paolo98@gmail.com)
 
