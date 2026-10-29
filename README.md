@@ -98,6 +98,10 @@ Brain  →  EEG  →  Decoder  →  Robot / VR
 - 3rd place — **Best Poster Award**, *An Alternative Training Protocol for a MI BMI Based on a Collaborative Approach*
 - 3rd place — **Best Innovation in HRI**, [NeuroDesign in HRI Workshop @ ICRA 2025](https://neurodesign-in-hri.webflow.io/)
 
+### 🥇 Competitions
+- 🥇 **1st place — Cortical Peaks Challenge 2026**: active team member developing the software in ROS2neuro, and **pilot** of the system
+- 🥈 **2nd place — Cybathlon 2024 (WHI Team)**: ROSNeuro software development and training of the pilot
+
 ### 🎤 Workshops & Summer Schools
 - **Organiser** (2025) — *How to use ROS and ROS-Neuro with a brain-computer interface (BCI) system to connect external devices for rehabilitation and assistance*, [Summer School on Neurorehabilitation 2025](https://2025.summerschoolneurorehabilitation.org/)
 - **Participant** (2024) — [Summer School on Neurorehabilitation 2024](https://2024.summerschoolneurorehabilitation.org/)
