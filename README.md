@@ -17,10 +17,10 @@ Brain  →  EEG  →  Decoder  →  Robot / VR
 
 - 🤖 **Real-time CVSA BCI** — robotic arm control via covert visual attention (QDA + mean power)
 - 🤝 **Collaborative BCI** — two operators, one robot, shared control in real time
-- 🧩 **Attentional Gating** — GMM-based focus detection for CVSA+MI BCI *(Graz BCI 2026, accepted)*
-- 🥽 **BCI in VR** — Motor Imagery + CVSA in immersive environments using VRStream *(Lisbon, 2026)*
+- 🧩 **Unsupervised Intent Gating** — unsupervised gating for intentional non-control in MI BCIs *(Graz BCI 2026 & IEEE SMC 2026, accepted; journal extension in progress)*
+- 🥽 **BCI in VR** — Motor Imagery + CVSA in immersive environments using VRStream *(Lisbon, 2026; in progress, target JNE)*
 - 📊 **ML vs DL for MI BCI** — real-time comparison study *(in progress @ IASLab)*
-- 🔁 **ROSNeuro / ROS2Neuro** — open-source BCI middleware contributor
+- 🔁 **ROSNeuro / ROS2neuro** — open-source BCI middleware contributor *(ROS2neuro paper in preparation)*
 
 ---
 
@@ -54,8 +54,8 @@ Brain  →  EEG  →  Decoder  →  Robot / VR
 | Project | Tags | Links |
 |---|---|---|
 | 🧠 **CVSA BCI** (simple_cvsa) | BCI · QDA · Real-Time | [GitHub](https://github.com/PaoloFori/cvsa_ws/tree/simple_cvsa) · [Publication](https://scholar.google.com/citations?user=KEpRsWsAAAAJ&hl=it&oi=ao) |
-| 🤝 **Collaborative BCI** | BCI · Robotics | [Graz 2024 PDF](https://www.research.unipd.it/bitstream/11577/3541951/1/9th_bci_conference_063.pdf) · 🏆 ICRA 2025 (3rd poster & EXPO) |
-| 🧩 **Attentional Gating** (ic_cvsa) | BCI · GMM · CVSA+MI | [GitHub](https://github.com/PaoloFori/cvsa_ws/tree/ic_cvsa) · *(Graz 2026, accepted)* |
+| 🤝 **Collaborative BCI** | BCI · Robotics | [Graz 2024 PDF](https://www.research.unipd.it/bitstream/11577/3541951/1/9th_bci_conference_063.pdf) · 🏆 3rd place Best Poster Award · 🏆 3rd place Best Innovation in HRI (NeuroDesign Workshop @ ICRA 2025) |
+| 🧩 **Unsupervised Intent Gating** (ic_cvsa) | BCI · GMM · CVSA+MI | [GitHub](https://github.com/PaoloFori/cvsa_ws/tree/ic_cvsa) · *(Graz 2026 & SMC 2026, accepted)* |
 | 🥽 **BCI in VR** | BCI · VR · Lisbon | [GitHub](https://github.com/PaoloFori/bci_vr_ws) |
 | 📊 **ML vs DL for MI BCI** | ML · DL · In progress | *Work in progress @ IASLab* |
 | 🔁 **ROSNeuro** | ROS · Open Source | [Organization](https://github.com/rosneuro) |
@@ -74,6 +74,9 @@ Brain  →  EEG  →  Decoder  →  Robot / VR
 |---|---|---|
 | 🏠 **Telegram Rental Bot** | Python · Docker · NAS | [GitHub](https://github.com/PaoloFori/telegram-rental-bot) |
 | 🎮 **Pykemon** | Python · OOP | [GitHub](https://github.com/PaoloFori/pykemon) |
+| 🃏 **Hi-Lo** | JavaScript · PWA · Games | [GitHub](https://github.com/PaoloFori/hilo) |
+| 🏋️ **GymTrack** | HTML · PWA · Fitness | [GitHub](https://github.com/PaoloFori/gymTrack) |
+| 🏎️ **F1 Race View** | HTML · OpenF1 · Dashboard | [GitHub](https://github.com/PaoloFori/f1_race_view) |
 
 ---
 
@@ -81,12 +84,23 @@ Brain  →  EEG  →  Decoder  →  Robot / VR
 
 | Year | Title | Venue |
 |---|---|---|
-| 2026 *(accepted)* | Attentional Gating for CVSA-Based BCI Using GMM | Graz BCI Conference 2026 |
-| 2026 *(submitted)* | Attentional Gating BCI — Extended Study | IEEE SMC |
-| 2025 | [Towards a Shift and Sustain-Based Decoding Architecture for CVSA BMI](https://ieeexplore.ieee.org/abstract/document/11343392) | IEEE |
-| 2024 | [Optimization and Evaluation of the Control Framework for BMI](https://ieeexplore.ieee.org/abstract/document/10711648) | IEEE |
-| 2024 | [An Alternative Training Protocol for a MI BMI Based on a Collaborative Approach](https://www.research.unipd.it/bitstream/11577/3541951/1/9th_bci_conference_063.pdf) | Graz BCI Conference 2024 |
+| 2026 *(accepted)* | Reliable Asynchronous Control in MI BCIs: An Unsupervised Spatial Focalisation Gating for Intentional Non-Control | IEEE SMC 2026 |
+| 2026 *(accepted)* | Unsupervised Intent Gating: Improving Calibration and Online Reliability in Motor Imagery BCIs | Graz BCI Conference 2026 |
+| 2026 *(in preparation)* | ROS2neuro: Closed-Loop Brain–Computer Interfaces with Modular ROS 2 Components *(provisional title)* | Venue TBD |
+| 2026 *(in progress)* | Extended journal version of the SMC 2026 work *(title TBD)* | IEEE SMC journal |
+| 2026 *(in progress)* | CVSA and Motor Imagery in Virtual Reality *(work carried out in Lisbon)* | Target: JNE |
+| 2025 | [Towards a Shift and Sustain-Based Decoding Architecture for CVSA BMI in a Natural Environment](https://ieeexplore.ieee.org/abstract/document/11343392) | IEEE SMC 2025 |
+| 2024 | [An Alternative Training Protocol for a MI BMI Based on a Collaborative Approach](https://www.research.unipd.it/bitstream/11577/3541951/1/9th_bci_conference_063.pdf) 🏆 | Graz BCI Conference 2024 |
+| 2024 | [Optimization and Evaluation of the Control Framework for BMI](https://ieeexplore.ieee.org/abstract/document/10711648) | IEEE CASE 2024 |
 | 2023 | [Optimising the Continuous Control of Brain-Actuated Robotic Devices](https://www.research.unipd.it/handle/11577/3506808) | CEUR Workshop Proceedings |
+
+### 🏆 Awards
+- 3rd place — **Best Poster Award**, *An Alternative Training Protocol for a MI BMI Based on a Collaborative Approach*
+- 3rd place — **Best Innovation in HRI**, [NeuroDesign in HRI Workshop @ ICRA 2025](https://neurodesign-in-hri.webflow.io/)
+
+### 🎤 Workshops & Summer Schools
+- **Organiser** (2025) — *How to use ROS and ROS-Neuro with a brain-computer interface (BCI) system to connect external devices for rehabilitation and assistance*, [Summer School on Neurorehabilitation 2025](https://2025.summerschoolneurorehabilitation.org/)
+- **Participant** (2024) — [Summer School on Neurorehabilitation 2024](https://2024.summerschoolneurorehabilitation.org/)
 
 🔗 [Full list on Google Scholar](https://scholar.google.com/citations?user=KEpRsWsAAAAJ&hl=it&oi=ao)
 
